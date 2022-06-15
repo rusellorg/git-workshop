@@ -25,3 +25,13 @@ def calculate_final_notes(notes: list[list[float]]) -> list[float]:
         final_notes.append(round(final_note, 1))
 
     return final_notes
+
+
+def save_notes(filename: str, notes: list[float]):
+    """
+    Saves notes to a file. Write one line per note, with the final note as a float.
+    """
+    with open(filename, 'w') as f:
+        writer = csv.writer(f)
+        for note in notes:
+            writer.writerow([note])
