@@ -13,3 +13,5 @@ def numer_primo(inicio, fin):
             nPrimo.append(inicio)
         inicio = inicio + 1
     return nPrimo
+
+numer_primo(inicio=120, fin=18720)
