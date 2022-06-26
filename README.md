@@ -12,12 +12,12 @@ or
 python -m venv venv
 ```
 
-## Activate the virtual environment in linux
+## Activate the virtual environment in Linux
 
 ```bash
 source venv/bin/activate
 ```
-## Activate the virtual environment in windows
+## Activate the virtual environment in Windows
 
 ```bash
 source venv/Scripts/activate
